@@ -1,0 +1,27 @@
+name: Bug Report
+description: File a Bug Report
+title: "[Bug]: "
+labels: ["bug", "triage"]
+assignees:
+  - bombitmanbomb
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report.
+  - type: textarea
+    id: request
+    attributes:
+      label: What Happened?
+      description: Also tell us, what did you Expect to happen.
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
