@@ -1,0 +1,57 @@
+name: Feature Request
+description: Create a report to help us improve
+title: "[Feature]: "
+labels: ["enhancement"]
+assignees: "bombitmanbomb"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this rrquest!
+  - type: input
+    id: discord
+    attributes:
+      label: Discord Contact
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. TotallyLegit#1234
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Is your feature request related to a problem? Please describe.
+      placeholder: A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+    validations:
+      required: false
+  - type: textarea
+    id: solution
+    attributes:
+      label: Solution
+      description: Describe the solution you'd like.
+      placeholder: A clear and concise description of what you want to happen.
+    validations:
+      required: true
+  - type: dropdown
+    id: project
+    attributes:
+      label: Related Project
+      description: What Project is this related to?
+      multiple: true
+      options:
+        - "General Discord"
+        - "General Squad Server"
+        - "AFO Hub Premium"
+        - "Squad Server Plugins"
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](/CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
+        - label: I understand that there is No promise this feature will be added
+          required: true
