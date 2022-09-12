@@ -7,14 +7,6 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
-  - type: input
-    id: discord
-    attributes:
-      label: Discord Contact
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. TotallyLegit#1234
-    validations:
-      required: true
   - type: textarea
     id: what-happened
     attributes:
