@@ -1,6 +1,6 @@
 This Repo is to manage issues and suggestions for the All for One Community
 
-If you have a Bug or an Issue to report, or have a suggestion to improve the community, [Create a New Ticket](https://github.com/afocommunity/suggestions/issues/new/choose)
+If you have a Bug or an Issue to report, or have a suggestion to improve the community, the servers, or the bots, [Create a New Ticket](https://github.com/afocommunity/suggestions/issues/new/choose)
 
 You can also View [Open Tickets](https://github.com/afocommunity/suggestions/issues), or View the [Status Board](https://github.com/orgs/afocommunity/projects/7)
 
