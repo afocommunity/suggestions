@@ -34,9 +34,10 @@ body:
       multiple: true
       options:
         - "General Discord"
-        - "General Squad Server"
+        - "Website"
+        - "Game Server"
+        - "Game Server Plugins"
         - "AFO Hub Premium"
-        - "Squad Server Plugins"
     validations:
       required: true
   - type: checkboxes
